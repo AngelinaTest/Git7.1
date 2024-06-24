@@ -30,7 +30,7 @@ public class Stats {
         long sum = 0;
 
         for (int i = 0; i < sales.length; i++) {
-            sum += (int) sales[i];
+            sum += sales[i];
         }
         return sum;
     }
@@ -40,9 +40,9 @@ public class Stats {
         long sum = 0;
 
         for (int i = 0; i < sales.length; i++) {
-            sum += (int) sales[i];
+            sum +=  sales[i];
         }
-        return sum / sales.length;
+        return sum / (long) sales.length;
     }
 
     //количество месяцев, в которых продажи были выше среднего
